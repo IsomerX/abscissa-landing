@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import TrustedBy from "@/components/TrustedBy";
+import TeamExperience from "@/components/TeamExperience";
 import Expertise from "@/components/Expertise";
 import AIWordCloud from "@/components/AIWordCloud";
 import FeaturedProjects from "@/components/FeaturedProjects";
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <TrustedBy />
       <Expertise />
+      <TeamExperience />
       <AIWordCloud />
       <FeaturedProjects />
       <Contact />
