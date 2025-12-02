@@ -4,10 +4,20 @@ import { Providers } from "./providers";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Abscissa AI - Revolutionizing Education Ecosystems",
-  description: "Transforming old and broken ERP & LMS systems with AI-powered solutions.",
+  title: "Abscissa AI | Revolutionizing Education Ecosystems",
+  description: "Transform your institution with School Dost - India's first multilingual AI-powered school ecosystem. Voice-first, adaptive learning, and predictive analytics.",
+  keywords: ["School ERP", "AI in Education", "School Dost", "Abscissa AI", "Education Technology", "LMS", "School Management System"],
   icons: {
-    icon: "/logo.svg",
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
+  openGraph: {
+    title: "Abscissa AI | Revolutionizing Education Ecosystems",
+    description: "Transform your institution with School Dost - India's first multilingual AI-powered school ecosystem.",
+    type: "website",
+    url: "https://abscissa.ai", // Assuming this is the domain
+    siteName: "Abscissa AI",
   },
 };
 

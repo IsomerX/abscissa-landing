@@ -31,7 +31,7 @@ const Expertise = () => {
   ];
 
   return (
-    <section id="expertise" className="bg-background py-32">
+    <section id="services" className="py-24 bg-secondary/5">
       <div className="max-w-7xl mx-auto px-8">
         <div className="text-center mb-20">
           <h2 className="text-5xl md:text-6xl font-medium mb-6 text-foreground">

@@ -1,10 +1,13 @@
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import TrustedBy from "@/components/TrustedBy";
-import TeamExperience from "@/components/TeamExperience";
+import TheChallenge from "@/components/TheChallenge";
+import SchoolDostSection from "@/components/SchoolDostSection";
+import MeasurableImpact from "@/components/MeasurableImpact";
+import Pricing from "@/components/Pricing";
+import Founders from "@/components/Founders";
 import Expertise from "@/components/Expertise";
 import AIWordCloud from "@/components/AIWordCloud";
-import SchoolDostSection from "@/components/SchoolDostSection";
 import Contact from "@/components/Contact";
 
 export default function Home() {
@@ -13,9 +16,12 @@ export default function Home() {
       <Navigation />
       <Hero />
       <TrustedBy />
-      <Expertise />
+      <TheChallenge />
       <SchoolDostSection />
-      <TeamExperience />
+      <MeasurableImpact />
+      <Pricing />
+      <Expertise />
+      <Founders />
       <AIWordCloud />
       <Contact />
     </div>

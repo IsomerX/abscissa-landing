@@ -82,8 +82,8 @@ const Pricing = () => {
                                 <h3 className="text-2xl font-semibold mb-2">{plan.name}</h3>
                                 <p className="text-foreground/60 mb-4">{plan.description}</p>
                                 <div className="flex items-baseline gap-1">
-                                    <span className="text-4xl font-bold">{plan.price}</span>
-                                    <span className="text-foreground/60">/student/month</span>
+                                    <span className="text-2xl font-bold">Contact Us</span>
+                                    {/* <span className="text-foreground/60">/student/month</span> */}
                                 </div>
                             </div>
 
@@ -96,8 +96,8 @@ const Pricing = () => {
                                 ))}
                             </div>
 
-                            <Button className={`w-full rounded-full ${plan.popular ? '' : 'variant-outline'}`} variant={plan.popular ? "default" : "outline"}>
-                                Get Started
+                            <Button className={`w-full rounded-full ${plan.popular ? '' : 'variant-outline'}`} variant={plan.popular ? "default" : "outline"} asChild>
+                                <a href="#contact">Contact Us</a>
                             </Button>
                         </div>
                     ))}

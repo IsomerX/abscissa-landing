@@ -32,7 +32,7 @@ const TheChallenge = () => {
     ];
 
     return (
-        <section className="py-24 bg-background">
+        <section id="mission" className="py-24 bg-background">
             <div className="max-w-7xl mx-auto px-8">
                 <div className="text-center mb-16">
                     <Badge variant="outline" className="mb-4 border-destructive/30 text-destructive">
