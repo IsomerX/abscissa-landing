@@ -52,13 +52,13 @@ const Contact = () => {
               Get in Touch
             </Badge>
             <h2 className="text-5xl md:text-6xl font-medium mb-6 text-foreground">
-              Let's Build Something{" "}
+              Join the Education{" "}
               <span className="font-serif italic text-accent" style={{ fontFamily: "'Source Serif 4', serif" }}>
-                Extraordinary
+                Revolution
               </span>
             </h2>
             <p className="text-xl text-foreground/70">
-              Ready to transform your business with AI? Schedule a consultation with our team.
+              Ready to transform your school's ecosystem? Schedule a consultation with our team.
             </p>
           </div>
 
@@ -84,7 +84,7 @@ const Contact = () => {
                   id="email"
                   name="email"
                   type="email"
-                  placeholder="john@company.com"
+                  placeholder="john@school.edu"
                   required
                   className="bg-background/50 border-foreground/20"
                 />
@@ -93,12 +93,12 @@ const Contact = () => {
 
             <div className="space-y-2">
               <label htmlFor="company" className="text-sm font-medium text-foreground">
-                Company
+                Institution / Organization
               </label>
               <Input
                 id="company"
                 name="company"
-                placeholder="Your Company"
+                placeholder="Your School or Institution"
                 className="bg-background/50 border-foreground/20"
               />
             </div>
@@ -110,7 +110,7 @@ const Contact = () => {
               <Textarea
                 id="message"
                 name="message"
-                placeholder="Tell us about your project..."
+                placeholder="Tell us about your current challenges..."
                 required
                 rows={6}
                 className="bg-background/50 border-foreground/20 resize-none"
@@ -130,10 +130,10 @@ const Contact = () => {
           <div className="mt-12 text-center">
             <p className="text-foreground/60 mb-2">Or email us directly at</p>
             <a
-              href="mailto:contact@voriq.ai"
+              href="mailto:contact@abscissa.ai"
               className="text-xl font-medium text-accent hover:underline"
             >
-              contact@voriq.ai
+              contact@abscissa.ai
             </a>
           </div>
         </div>

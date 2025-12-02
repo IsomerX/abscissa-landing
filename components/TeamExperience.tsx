@@ -52,17 +52,17 @@ const TeamExperience = () => {
         {/* Stats Section */}
         <div className="mt-24 grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
           <div className="text-center p-8 border border-foreground/10 rounded-2xl">
-            <div className="text-5xl md:text-6xl font-bold text-foreground mb-4">200+</div>
-            <h3 className="text-xl font-medium text-foreground mb-2">Production Models</h3>
+            <div className="text-5xl md:text-6xl font-bold text-foreground mb-4">50+</div>
+            <h3 className="text-xl font-medium text-foreground mb-2">Institutions Transformed</h3>
             <p className="text-foreground/60">
-              Deployed and battle-tested in live environments
+              Schools and universities modernized with our ecosystem
             </p>
           </div>
           <div className="text-center p-8 border border-foreground/10 rounded-2xl">
-            <div className="text-5xl md:text-6xl font-bold text-foreground mb-4">$2.1B</div>
-            <h3 className="text-xl font-medium text-foreground mb-2">Client TVL Secured</h3>
+            <div className="text-5xl md:text-6xl font-bold text-foreground mb-4">100k+</div>
+            <h3 className="text-xl font-medium text-foreground mb-2">Students Impacted</h3>
             <p className="text-foreground/60">
-              Total value locked under our intelligence systems
+              Empowering the next generation with AI-driven learning
             </p>
           </div>
         </div>

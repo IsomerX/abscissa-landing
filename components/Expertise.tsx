@@ -5,27 +5,27 @@ import { Badge } from "@/components/ui/badge";
 const Expertise = () => {
   const expertiseItems = [
     {
-      title: "Data Intelligence & Query Tools",
+      title: "Legacy System Transformation",
       description:
-        "Natural language interfaces that make complex data instantly accessible to every team member. We build intelligent data query tools that let anyone in your organisation ask questions about complex datasets—no technical knowledge required. Our systems understand natural language, retrieve accurate information, and present insights in seconds.",
-      image: "/assets/data-intelligence.jpg",
+        "We specialize in taking outdated, clunky ERP and LMS systems and transforming them into modern, efficient platforms. Our approach ensures that your historical data is preserved while your operations are revolutionized with cutting-edge technology.",
+      image: "/assets/legacy-transformation.png",
       features: [
-        "Natural language understanding",
-        "Intelligent data retrieval with SOTA RAG models",
-        "Instant, accurate responses",
-        "No technical knowledge required",
+        "Seamless data migration",
+        "Modern UI/UX overhaul",
+        "Performance optimization",
+        "Legacy code refactoring",
       ],
     },
     {
-      title: "Conversational AI",
+      title: "AI-Powered Education Ecosystems",
       description:
-        "Customer-facing chatbots and support systems that understand context and deliver results. From appointment scheduling to complex queries, our conversational AI solutions handle routine tasks autonomously while providing seamless escalation when needed. Available 24/7, they improve customer satisfaction while reducing operational overhead.",
+        "Beyond simple management tools, we build intelligent ecosystems that connect students, teachers, parents, and administrators. Our AI agents automate routine tasks, provide personalized insights, and foster a collaborative learning environment.",
       image: "/assets/conversational-ai.jpg",
       features: [
-        "Context-aware conversations",
-        "24/7 availability",
-        "Seamless escalation",
-        "Autonomous task handling",
+        "Intelligent automation agents",
+        "Personalized learning paths",
+        "Real-time analytics & insights",
+        "Multilingual support",
       ],
     },
   ];
@@ -46,15 +46,13 @@ const Expertise = () => {
           {expertiseItems.map((item, index) => (
             <div
               key={index}
-              className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ${
-                index % 2 === 1 ? "lg:grid-flow-dense" : ""
-              }`}
+              className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ${index % 2 === 1 ? "lg:grid-flow-dense" : ""
+                }`}
             >
               {/* Image */}
               <div
-                className={`${
-                  index % 2 === 1 ? "lg:col-start-2" : ""
-                } relative group`}
+                className={`${index % 2 === 1 ? "lg:col-start-2" : ""
+                  } relative group`}
               >
                 <div className="relative overflow-hidden rounded-2xl">
                   <img

@@ -22,27 +22,27 @@ const Navigation = () => {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <a href="/" className="flex items-center gap-2">
-          <img
+          {/* <img
             src="/logo.svg"
-            alt="VORIQ AI"
+            alt="Abscissa AI"
             className={`h-6 w-auto transition-all duration-300 ${isScrolled ? "brightness-0" : "brightness-0 invert"}`}
-          />
-          {/* <span className={`text-xl font-semibold transition-colors duration-300 ${isScrolled ? "text-black" : "text-foreground" */}
-          {/*   }`}>VORIQ AI</span> */}
+          /> */}
+          <span className={`text-xl font-bold transition-colors duration-300 ${isScrolled ? "text-black" : "text-foreground"
+            }`}>Abscissa AI</span>
         </a>
 
         <div className="hidden md:flex items-center gap-8">
-          <a href="/#expertise" className={`transition-colors duration-300 ${isScrolled ? "text-black/70 hover:text-black" : "text-foreground/80 hover:text-foreground"
+          <a href="/#mission" className={`transition-colors duration-300 ${isScrolled ? "text-black/70 hover:text-black" : "text-foreground/80 hover:text-foreground"
             }`}>
-            Expertise
+            Mission
           </a>
-          <a href="/solutions/ocr" className={`transition-colors duration-300 ${isScrolled ? "text-black/70 hover:text-black" : "text-foreground/80 hover:text-foreground"
+          <a href="https://schooldost.in/" target="_blank" rel="noopener noreferrer" className={`transition-colors duration-300 ${isScrolled ? "text-black/70 hover:text-black" : "text-foreground/80 hover:text-foreground"
             }`}>
-            Solutions
+            School Dost
           </a>
-          <a href="/#projects" className={`transition-colors duration-300 ${isScrolled ? "text-black/70 hover:text-black" : "text-foreground/80 hover:text-foreground"
+          <a href="/#services" className={`transition-colors duration-300 ${isScrolled ? "text-black/70 hover:text-black" : "text-foreground/80 hover:text-foreground"
             }`}>
-            Projects
+            Services
           </a>
           <a href="/#contact" className={`transition-colors duration-300 ${isScrolled ? "text-black/70 hover:text-black" : "text-foreground/80 hover:text-foreground"
             }`}>

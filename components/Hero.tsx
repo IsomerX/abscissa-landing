@@ -27,24 +27,24 @@ const Hero = () => {
           className="mb-8 border-foreground/20 bg-background/50 backdrop-blur-sm px-4 py-2 text-sm"
         >
           <Sparkles className="w-4 h-4 mr-2" />
-          Enterprise Solution by VORIQ AI
+          Revolutionizing Education Ecosystems
         </Badge>
 
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-medium mb-6 leading-tight tracking-tight">
-          Transforming Businesses Through{" "}
+          Transforming Broken Systems into{" "}
           <span className="font-serif italic text-accent" style={{ fontFamily: "'Source Serif 4', serif" }}>
             Intelligent
           </span>{" "}
-          Solutions
+          Ecosystems
         </h1>
 
         <p className="text-lg md:text-xl text-foreground/70 mb-12 max-w-3xl mx-auto leading-relaxed">
-          Delivering enterprise-grade AI solutions that drive measurable impact across industries—from fintech to healthcare to real estate.
+          We take old, broken ERP and LMS systems and give them a revolution. Experience the future of education with AI-powered solutions.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Button size="lg" className="rounded-full px-8 py-6 text-lg" asChild>
-            <a href="#contact">Schedule a Consultation</a>
+            <a href="https://schooldost.in/" target="_blank" rel="noopener noreferrer">Discover School Dost</a>
           </Button>
           <Button
             size="lg"
@@ -52,7 +52,7 @@ const Hero = () => {
             className="rounded-full px-8 py-6 text-lg"
             asChild
           >
-            <a href="#projects">View Our Work</a>
+            <a href="#mission">Our Mission</a>
           </Button>
         </div>
       </div>

@@ -4,12 +4,16 @@ import { Providers } from "./providers";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Voriq AI - Enterprise AI Solutions",
-  description: "Fast. Accurate. Enterprise-grade AI solutions.",
+  title: "Abscissa AI - Revolutionizing Education Ecosystems",
+  description: "Transforming old and broken ERP & LMS systems with AI-powered solutions.",
   icons: {
     icon: "/logo.svg",
   },
 };
+
+import Footer from "@/components/Footer";
+
+// ... (imports)
 
 export default function RootLayout({
   children,
@@ -20,6 +24,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Providers>{children}</Providers>
+        <Footer />
         <Script
           id="apollo-tracker"
           strategy="afterInteractive"

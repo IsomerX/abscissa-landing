@@ -14,10 +14,15 @@ const TrustedBy = () => {
         <p className="text-foreground/60 mb-12 text-lg">
           Trusted by industry leaders across sectors
         </p>
-        
+
         <div className="flex flex-wrap items-center justify-center gap-12 md:gap-16 opacity-40">
-          {clients.map((client, index) => (
-            <div 
+          {[
+            "International School Networks",
+            "University Alliances",
+            "EdTech Partners",
+            "Global Education Boards"
+          ].map((client, index) => (
+            <div
               key={index}
               className="text-xl font-medium text-foreground/80 hover:text-foreground transition-colors"
             >

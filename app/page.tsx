@@ -4,7 +4,7 @@ import TrustedBy from "@/components/TrustedBy";
 import TeamExperience from "@/components/TeamExperience";
 import Expertise from "@/components/Expertise";
 import AIWordCloud from "@/components/AIWordCloud";
-import FeaturedProjects from "@/components/FeaturedProjects";
+import SchoolDostSection from "@/components/SchoolDostSection";
 import Contact from "@/components/Contact";
 
 export default function Home() {
@@ -14,9 +14,9 @@ export default function Home() {
       <Hero />
       <TrustedBy />
       <Expertise />
+      <SchoolDostSection />
       <TeamExperience />
       <AIWordCloud />
-      <FeaturedProjects />
       <Contact />
     </div>
   );

@@ -5,13 +5,13 @@ import { Badge } from "@/components/ui/badge";
 const AIWordCloud = () => {
   const buzzwords = [
     // Row 1
-    ["Natural Language Processing", "Machine Learning", "Large Language Models", "Deep Learning", "Neural Networks"],
+    ["Student Analytics", "Learning Path Optimization", "Automated Grading", "Adaptive Learning", "Neural Networks"],
     // Row 2
     ["GPT-4", "Claude", "RAG Systems", "Vector Databases", "Embeddings", "Fine-tuning"],
     // Row 3
-    ["Conversational AI", "Chatbots", "Semantic Search", "Context Understanding", "AI Agents"],
+    ["Conversational AI", "Parent-Teacher Bots", "Semantic Search", "Context Understanding", "AI Agents"],
     // Row 4
-    ["Computer Vision", "Facial Recognition", "Data Analytics", "Real-time Processing", "API Integration"],
+    ["Computer Vision", "Attendance Tracking", "Data Analytics", "Real-time Processing", "API Integration"],
     // Row 5
     ["Enterprise AI", "Scalable Solutions", "Cloud Infrastructure", "Production Ready", "Custom Models"],
     // Row 6
