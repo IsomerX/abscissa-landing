@@ -8,9 +8,9 @@ export const metadata: Metadata = {
   description: "Transform your institution with School Dost - India's first multilingual AI-powered school ecosystem. Voice-first, adaptive learning, and predictive analytics.",
   keywords: ["School ERP", "AI in Education", "School Dost", "Abscissa AI", "Education Technology", "LMS", "School Management System"],
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
-    apple: "/favicon.ico",
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
   },
   openGraph: {
     title: "Abscissa AI | Revolutionizing Education Ecosystems",

@@ -50,8 +50,10 @@ const Navigation = () => {
           </a>
         </div>
 
-        <Button variant="secondary" size="default" className="rounded-full">
-          Get started
+        <Button className="rounded-full" asChild>
+          <a href="https://calendly.com/sanyajolly7/ai-school-revolution" target="_blank" rel="noopener noreferrer">
+            Book a Meeting
+          </a>
         </Button>
       </div>
     </nav>
